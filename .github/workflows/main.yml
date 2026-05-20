@@ -1,0 +1,54 @@
+name: Build
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Android SDK + NDK
+        run: |
+          sudo apt update
+          sudo apt install -y unzip wget
+          
+          mkdir -p $HOME/android-sdk
+          cd $HOME/android-sdk
+          
+          wget https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
+          unzip commandlinetools-linux-*.zip
+          
+          mkdir cmdline-tools/latest
+          mv cmdline-tools/* cmdline-tools/latest/ || true
+
+          export ANDROID_HOME=$HOME/android-sdk
+          export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$PATH
+
+          yes | sdkmanager --licenses
+          sdkmanager "platform-tools" "platforms;android-21" "ndk;25.2.9519653"
+
+          echo "ANDROID_HOME=$HOME/android-sdk" >> $GITHUB_ENV
+          echo "$HOME/android-sdk/ndk/25.2.9519653" >> $GITHUB_PATH
+
+      - name: Build with ndk-build
+        run: |
+          export NDK_PATH=$ANDROID_HOME/ndk/25.2.9519653
+          
+          mkdir -p build
+          
+          $NDK_PATH/ndk-build \
+            NDK_PROJECT_PATH=. \
+            APP_BUILD_SCRIPT=Android.mk \
+            NDK_APPLICATION_MK=Application.mk \
+            NDK_OUT=build \
+            NDK_LIBS_OUT=build/libs
+
+      - name: Upload build
+        uses: actions/upload-artifact@v4
+        with:
+          name: midnight-build
+          path: build/
