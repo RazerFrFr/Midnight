@@ -1,89 +1,1054 @@
-18.40
-ProcessRequest = 0x95FB1C4
-GetUrl = 0x70
-SetUrl = 0x95F8108
+== OFFSET LIST ==
+This list was found by: Helix (@helix.67 on discord)
 
-19.10
-ProcessRequest = 0xB98C690
-GetUrl = 0x70
-SetUrl = 0xB98A238
 
-20.40
-ProcessRequest = 0x88C178C
-GetUrl = 0x70
-SetUrl = 0x88BF314
+== PROCESS OFFSETS ==
+=====================
+"process_offsets": {
+    "++Fortnite+Release-18.40-CL-18167774": {
+      "pr_addr": "0x95FB1C4",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x95F8108"
+    },
+    "++Fortnite+Release-19.00-CL-18335626": {
+      "pr_addr": "0x09FC7F18",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x09FC5A20"
+    },
+    "++Fortnite+Release-19.00-CL-18380290": {
+      "pr_addr": "0x09FC8064",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x09FC5B6C"
+    },
+    "++Fortnite+Release-19.01-CL-18441387": {
+      "pr_addr": "0x0A04AEF4",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x0A0489FC"
+    },
+    "++Fortnite+Release-19.01-CL-18467134": {
+      "pr_addr": "0x0A04B09C",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x0A048BA4"
+    },
+    "++Fortnite+Release-19.10-CL-18593273": {
+      "pr_addr": "0x0B98A7C8",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x0B988370"
+    },
+    "++Fortnite+Release-19.10-CL-18642366": {
+      "pr_addr": "0x0B98B468",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x0B989010"
+    },
+    "++Fortnite+Release-19.10-CL-18675304": {
+      "pr_addr": "0x0B98B690",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x0B989238"
+    },
+    "++Fortnite+Release-19.20-CL-18778007": {
+      "pr_addr": "0x0B972F00",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x0B970A90"
+    },
+    "++Fortnite+Release-19.30-CL-18931164": {
+      "pr_addr": "0x0818DAA8",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x0818B650"
+    },
+    "++Fortnite+Release-19.30-CL-19036451": {
+      "pr_addr": "0x0818E1C0",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x0818BD68"
+    },
+    "++Fortnite+Release-19.40-CL-19121574": {
+      "pr_addr": "0x0BD05208",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x0BD02BC4"
+    },
+    "++Fortnite+Release-20.00-CL-19411831": {
+      "pr_addr": "0x0C927874",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x0C925220"
+    },
+    "++Fortnite+Release-20.10-CL-19582505": {
+      "pr_addr": "0x086D6468",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x086D400C"
+    },
+    "++Fortnite+Release-20.20-CL-19751212": {
+      "pr_addr": "0x087ADAD8",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x087AB660"
+    },
+    "++Fortnite+Release-20.20-CL-19864603": {
+      "pr_addr": "0x087ADFE4",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x087ABB6C"
+    },
+    "++Fortnite+Release-20.30-CL-20005561": {
+      "pr_addr": "0x087A901C",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x087A6BA8"
+    },
+    "++Fortnite+Release-20.30-CL-20037261": {
+      "pr_addr": "0x087A9204",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x087A6D90"
+    },
+    "++Fortnite+Release-20.40-CL-20175294": {
+      "pr_addr": "0x088C1340",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x088BEEC8"
+    },
+    "++Fortnite+Release-20.40-CL-20244966": {
+      "pr_addr": "0x088C178C",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x088BF314"
+    },
+    "++Fortnite+Release-21.00-CL-20389800": {
+      "pr_addr": "0x08A6A088",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x08A67C10"
+    },
+    "++Fortnite+Release-21.00-CL-20580074": {
+      "pr_addr": "0x08A6AE30",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x08A689B8"
+    },
+    "++Fortnite+Release-21.10-CL-20696680": {
+      "pr_addr": "0x08BDE4C4",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x08BDC0BC"
+    },
+    "++Fortnite+Release-21.10-CL-20805132": {
+      "pr_addr": "0x08BDEAB4",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x08BDC6AC"
+    },
+    "++Fortnite+Release-21.20-CL-20938145": {
+      "pr_addr": "0x08C12EF8",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x08C10AF0"
+    },
+    "++Fortnite+Release-21.20-CL-20978394": {
+      "pr_addr": "0x08C12B3C",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x08C10734"
+    },
+    "++Fortnite+Release-21.20-CL-21014428": {
+      "pr_addr": "0x08C13048",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x08C10C40"
+    },
+    "++Fortnite+Release-21.30-CL-21088273": {
+      "pr_addr": "0x089F02F0",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x089EDCF8"
+    },
+    "++Fortnite+Release-21.40-CL-21347928": {
+      "pr_addr": "0x08761B30",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x0875F794"
+    },
+    "++Fortnite+Release-21.40-CL-21431554": {
+      "pr_addr": "0x08763A6C",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x087616D0"
+    },
+    "++Fortnite+Release-21.50-CL-21557619": {
+      "pr_addr": "0x0878EEE4",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x0878CEAC"
+    },
+    "++Fortnite+Release-21.51-CL-21785624": {
+      "pr_addr": "0x087DA864",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x087D882C"
+    },
+    "++Fortnite+Release-22.00-CL-22031344": {
+      "pr_addr": "0x8CD9F20",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x8CD83CC"
+    },
+    "++Fortnite+Release-22.00-CL-22107157": {
+      "pr_addr": "0x8CE1170",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x8CDF61C"
+    },
+    "++Fortnite+Release-22.10-CL-22240570": {
+      "pr_addr": "0x932D314",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x932B7C0"
+    },
+    "++Fortnite+Release-22.20-CL-22545427": {
+      "pr_addr": "0x932DE98",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x932C150"
+    },
+    "++Fortnite+Release-22.30-CL-22854046": {
+      "pr_addr": "0x8F2F4C4",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x8F2D77C"
+    },
+    "++Fortnite+Release-22.30-CL-22886174": {
+      "pr_addr": "0x8F2F740",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x8F2D9F8"
+    },
+    "++Fortnite+Release-22.40-CL-23070899": {
+      "pr_addr": "0x8FE0F9C",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x8FDF254"
+    },
+    "++Fortnite+Release-23.00-CL-23281232": {
+      "pr_addr": "0x6AA9BD8",
+      "geturl_addr": "0x88",
+      "seturl_addr": "0x8FFF24C"
+    },
+    "++Fortnite+Release-23.00-CL-23385779": {
+      "pr_addr": "0x6AAF768",
+      "geturl_addr": "0xD08",
+      "seturl_addr": "0x8FFD0B8"
+    },
+    "++Fortnite+Release-23.10-CL-23443094": {
+      "pr_addr": "0x69AB370",
+      "geturl_addr": "0xE28",
+      "seturl_addr": "0x915CF10"
+    },
+    "++Fortnite+Release-23.10-CL-23572221": {
+      "pr_addr": "0x69ACD44",
+      "geturl_addr": "0xEA8",
+      "seturl_addr": "0x915F73C"
+    },
+    "++Fortnite+Release-23.20-CL-23659353": {
+      "pr_addr": "0x6F2B3FC",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x94EDFD8"
+    },
+    "++Fortnite+Release-23.20-CL-23783097": {
+      "pr_addr": "0x6FE5E88",
+      "geturl_addr": "0xF78",
+      "seturl_addr": "0x95413E0"
+    },
+    "++Fortnite+Release-23.30-CL-23901854": {
+      "pr_addr": "0x702FBE4",
+      "geturl_addr": "0xC48",
+      "seturl_addr": "0x95B15F8"
+    },
+    "++Fortnite+Release-23.30-CL-23937783": {
+      "pr_addr": "0x70303DC",
+      "geturl_addr": "0xD48",
+      "seturl_addr": "0x95B24D8"
+    },
+    "++Fortnite+Release-23.30-CL-23986860": {
+      "pr_addr": "0x7030908",
+      "geturl_addr": "0xDC8",
+      "seturl_addr": "0x95B472C"
+    },
+    "++Fortnite+Release-23.40-CL-24087481": {
+      "pr_addr": "0x6E135A8",
+      "geturl_addr": "0x88",
+      "seturl_addr": "0x9701750"
+    },
+    "++Fortnite+Release-23.40-CL-24230880": {
+      "pr_addr": "0x6E133D4",
+      "geturl_addr": "0x108",
+      "seturl_addr": "0x9701A98"
+    },
+    "++Fortnite+Release-23.50-CL-24376996": {
+      "pr_addr": "0x6EFF15C",
+      "geturl_addr": "0xB78",
+      "seturl_addr": "0x97220D8"
+    },
+    "++Fortnite+Release-24.00-CL-24518431": {
+      "pr_addr": "0x7108914",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x7109570"
+    },
+    "++Fortnite+Release-24.01-CL-24665656": {
+      "pr_addr": "0x71799D8",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x717A634"
+    },
+    "++Fortnite+Release-24.10-CL-24770548": {
+      "pr_addr": "0x71C8AB4",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x71C9710"
+    },
+    "++Fortnite+Release-24.20-CL-24939793": {
+      "pr_addr": "0x72DA320",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x72DAFC0"
+    },
+    "++Fortnite+Release-24.30-CL-25280217": {
+      "pr_addr": "0x712C410",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x712D0B0"
+    },
+    "++Fortnite+Release-24.30-CL-25330280": {
+      "pr_addr": "0x712CA1C",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x712D6BC"
+    },
+    "++Fortnite+Release-24.40-CL-25469380": {
+      "pr_addr": "0x700D6FC",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x700E39C"
+    },
+    "++Fortnite+Release-24.40-CL-25595478": {
+      "pr_addr": "0x700E1FC",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x700EE9C"
+    },
+    "++Fortnite+Release-25.00-CL-25695576": {
+      "pr_addr": "0x739A09C",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x739AD44"
+    },
+    "++Fortnite+Release-25.00-CL-25913641": {
+      "pr_addr": "0x739C67C",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x739D324"
+    },
+    "++Fortnite+Release-25.10-CL-26000958": {
+      "pr_addr": "0x73B68A4",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x73B754C"
+    },
+    "++Fortnite+Release-25.11-CL-26227037": {
+      "pr_addr": "0x73B85F8",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x73B92A0"
+    },
+    "++Fortnite+Release-25.20-CL-26474516": {
+      "pr_addr": "0x76D98A8",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x76DA550"
+    },
+    "++Fortnite+Release-25.20-CL-26643816": {
+      "pr_addr": "0x76D6A70",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x76D7718"
+    },
+    "++Fortnite+Release-25.30-CL-26867995": {
+      "pr_addr": "0x77103EC",
+      "geturl_addr": "0x70",
+      "seturl_addr": "0x7711094"
+    },
+    "++Fortnite+Release-26.00-CL-27233190": {
+      "pr_addr": "0x80A49C4",
+      "geturl_addr": "0x78",
+      "seturl_addr": "0x7D7EE28"
+    },
+    "++Fortnite+Release-26.00-CL-27405594": {
+      "pr_addr": "0x80A54A0",
+      "geturl_addr": "0x78",
+      "seturl_addr": "0x7D7F480"
+    },
+    "++Fortnite+Release-26.10-CL-27665530": {
+      "pr_addr": "0x81CA8C0",
+      "geturl_addr": "0x78",
+      "seturl_addr": "0x7EA9220"
+    },
+    "++Fortnite+Release-26.20-CL-28096793": {
+      "pr_addr": "0x7ABD100",
+      "geturl_addr": "0x78",
+      "seturl_addr": "0x7ABE024"
+    },
+    "++Fortnite+Release-26.20-CL-28333111": {
+      "pr_addr": "0x7ABD108",
+      "geturl_addr": "0x78",
+      "seturl_addr": "0x7ABE02C"
+    },
+    "++Fortnite+Release-26.30-CL-28520140": {
+      "pr_addr": "0x7B31F28",
+      "geturl_addr": "0x78",
+      "seturl_addr": "0x80F59A0"
+    },
+    "++Fortnite+Release-26.30-CL-28620401": {
+      "pr_addr": "0x7B31950",
+      "geturl_addr": "0x78",
+      "seturl_addr": "0x80F53D4"
+    },
+    "++Fortnite+Release-26.30-CL-28688692": {
+      "pr_addr": "0x7B34CB0",
+      "geturl_addr": "0x78",
+      "seturl_addr": "0x80F885C"
+    },
+    "++Fortnite+Release-26.30-CL-28849396": {
+      "pr_addr": "0x7B35108",
+      "geturl_addr": "0x78",
+      "seturl_addr": "0x80F8CB4"
+    },
+    "++Fortnite+Release-26.30-CL-28938851": {
+      "pr_addr": "0x7B346F0",
+      "geturl_addr": "0x78",
+      "seturl_addr": "0x80F82A8"
+    },
+    "++Fortnite+Release-27.00-CL-29072303": {
+      "pr_addr": "0x840093C",
+      "geturl_addr": "0x88",
+      "seturl_addr": "0x8850D48"
+    },
+    "++Fortnite+Release-27.10-CL-29703186": {
+      "pr_addr": "0x8517AA4",
+      "geturl_addr": "0x88",
+      "seturl_addr": "0x893A5F4"
+    },
+    "++Fortnite+Release-27.11-CL-29739262": {
+      "pr_addr": "0x8F3F580",
+      "geturl_addr": "0x88",
+      "seturl_addr": "0x93527E4"
+    },
+    "++Fortnite+Release-28.00-CL-29915848": {
+      "pr_addr": "0x967E7FC",
+      "geturl_addr": "0x150",
+      "seturl_addr": "0x9A96B4C"
+    },
+    "++Fortnite+Release-28.01-CL-30342671": {
+      "pr_addr": "0x968484C",
+      "geturl_addr": "0x150",
+      "seturl_addr": "0x9AADE34"
+    },
+    "++Fortnite+Release-28.10-CL-30676362": {
+      "pr_addr": "0x969A70C",
+      "geturl_addr": "0x160",
+      "seturl_addr": "0x9A8E0FC"
+    },
+    "++Fortnite+Release-28.10-CL-30835064": {
+      "pr_addr": "0x969B098",
+      "geturl_addr": "0x160",
+      "seturl_addr": "0x9A8EA84"
+    },
+    "++Fortnite+Release-28.20-CL-31165234": {
+      "pr_addr": "0x98E27AC",
+      "geturl_addr": "0x160",
+      "seturl_addr": "0x9CBE7D4"
+    },
+    "++Fortnite+Release-28.20-CL-31286935": {
+      "pr_addr": "0x98E239C",
+      "geturl_addr": "0x160",
+      "seturl_addr": "0x9CBE3C8"
+    },
+    "++Fortnite+Release-28.30-CL-31511038": {
+      "pr_addr": "0x9914B88",
+      "geturl_addr": "0x160",
+      "seturl_addr": "0x9D11EF8"
+    },
+    "++Fortnite+Release-29.00-CL-31978752": {
+      "pr_addr": "0x50B8CC0",
+      "geturl_addr": "0x208",
+      "seturl_addr": "0x99FA714"
+    },
+    "++Fortnite+Release-29.00-CL-32116959": {
+      "pr_addr": "0x50B8C80",
+      "geturl_addr": "0x208",
+      "seturl_addr": "0x99F9D18"
+    },
+    "++Fortnite+Release-29.00-CL-32148000": {
+      "pr_addr": "0x50B8C74",
+      "geturl_addr": "0x208",
+      "seturl_addr": "0x99FA754"
+    },
+    "++Fortnite+Release-29.01-CL-32236377": {
+      "pr_addr": "0x50DAF3C",
+      "geturl_addr": "0x208",
+      "seturl_addr": "0x9A31F88"
+    },
+    "++Fortnite+Release-29.10-CL-32391220": {
+      "pr_addr": "0x512A56C",
+      "geturl_addr": "0x218",
+      "seturl_addr": "0x9B2326C"
+    },
+    "++Fortnite+Release-29.10-CL-32567225": {
+      "pr_addr": "0x512B56C",
+      "geturl_addr": "0x218",
+      "seturl_addr": "0x9B2557C"
+    },
+    "++Fortnite+Release-29.20-CL-32716692": {
+      "pr_addr": "0x518A638",
+      "geturl_addr": "0x268",
+      "seturl_addr": "0x9C7EDD4"
+    },
+    "++Fortnite+Release-29.30-CL-32982357": {
+      "pr_addr": "0x51D399C",
+      "geturl_addr": "0x268",
+      "seturl_addr": "0x9D246C0"
+    },
+    "++Fortnite+Release-29.40-CL-33291686": {
+      "pr_addr": "0x51CB330",
+      "geturl_addr": "0x268",
+      "seturl_addr": "0x9C72D10"
+    },
+    "++Fortnite+Release-29.40-CL-33502036": {
+      "pr_addr": "0x51CA330",
+      "geturl_addr": "0x268",
+      "seturl_addr": "0x9C6C3C4"
+    },
+    "++Fortnite+Release-30.00-CL-33760522": {
+      "pr_addr": "0x52C3300",
+      "geturl_addr": "0x270",
+      "seturl_addr": "0x9E875A0"
+    },
+    "++Fortnite+Release-30.00-CL-33962396": {
+      "pr_addr": "0x52C7E74",
+      "geturl_addr": "0x270",
+      "seturl_addr": "0x9E8D490"
+    },
+    "++Fortnite+Release-30.10-CL-34184790": {
+      "pr_addr": "0x535DD9C",
+      "geturl_addr": "0x270",
+      "seturl_addr": "0xA00AE98"
+    },
+    "++Fortnite+Release-30.10-CL-34261954": {
+      "pr_addr": "0x535DD9C",
+      "geturl_addr": "0x270",
+      "seturl_addr": "0xA00B1CC"
+    },
+    "++Fortnite+Release-30.20-CL-34488544": {
+      "pr_addr": "0x53C1278",
+      "geturl_addr": "0x270",
+      "seturl_addr": "0xA0E7270"
+    },
+    "++Fortnite+Release-30.20-CL-34597766": {
+      "pr_addr": "0x53C2278",
+      "geturl_addr": "0x270",
+      "seturl_addr": "0xA0E83CC"
+    },
+    "++Fortnite+Release-30.30-CL-34891016": {
+      "pr_addr": "0x5417020",
+      "geturl_addr": "0x270",
+      "seturl_addr": "0xA1ABA5C"
+    },
+    "++Fortnite+Release-30.40-CL-35235494": {
+      "pr_addr": "0x54827DC",
+      "geturl_addr": "0x270",
+      "seturl_addr": "0xA2A3DCC"
+    },
+    "++Fortnite+Release-31.00-CL-35447195": {
+      "pr_addr": "0x55B55C4",
+      "geturl_addr": "0x270",
+      "seturl_addr": "0xA5D7D44"
+    },
+    "++Fortnite+Release-31.00-CL-35820075": {
+      "pr_addr": "0x0",
+      "geturl_addr": "0x0",
+      "seturl_addr": "0x0"
+    },
+    "++Fortnite+Release-31.10-CL-35815136": {
+      "pr_addr": "0x55DAA28",
+      "geturl_addr": "0x270",
+      "seturl_addr": "0xA62C754"
+    },
+    "++Fortnite+Release-31.20-CL-36217724": {
+      "pr_addr": "0x5631354",
+      "geturl_addr": "0x270",
+      "seturl_addr": "0xA6EBED8"
+    },
+    "++Fortnite+Release-31.20-CL-36348035": {
+      "pr_addr": "0x5631354",
+      "geturl_addr": "0x270",
+      "seturl_addr": "0xA6EBE18"
+    },
+    "++Fortnite+Release-31.30-CL-36600465": {
+      "pr_addr": "0x56A8774",
+      "geturl_addr": "0x270",
+      "seturl_addr": "0xA7FA914"
+    },
+    "++Fortnite+Release-31.40-CL-36874825": {
+      "pr_addr": "0x56C9590",
+      "geturl_addr": "0x270",
+      "seturl_addr": "0xA83D510"
+    },
+    "++Fortnite+Release-31.40-CL-37076506": {
+      "pr_addr": "0x56C9590",
+      "geturl_addr": "0x270",
+      "seturl_addr": "0xA83E7A8"
+    },
+    "++Fortnite+Release-31.41-CL-37324991": {
+      "pr_addr": "0x56D05B8",
+      "geturl_addr": "0x270",
+      "seturl_addr": "0xA84D3CC"
+    },
+    "++Fortnite+Release-32.00-CL-37505882": {
+      "pr_addr": "0x59A6670",
+      "geturl_addr": "0x288",
+      "seturl_addr": "0xAB85574"
+    },
+    "++Fortnite+Release-32.00-CL-37747778": {
+      "pr_addr": "0x5963A70",
+      "geturl_addr": "0x288",
+      "seturl_addr": "0xAB357F8"
+    },
+    "++Fortnite+Release-32.10-CL-37958378": {
+      "pr_addr": "0x5974D60",
+      "geturl_addr": "0x288",
+      "seturl_addr": "0xAB5C23C"
+    },
+    "++Fortnite+Release-32.11-CL-38202817": {
+      "pr_addr": "0x59A4E40",
+      "geturl_addr": "0x288",
+      "seturl_addr": "0xABBF324"
+    },
+    "++Fortnite+Release-32.11-CL-38371047": {
+      "pr_addr": "0x59AFD74",
+      "geturl_addr": "0x288",
+      "seturl_addr": "0xABBFC48"
+    },
+    "++Fortnite+Release-33.00-CL-38416954": {
+      "pr_addr": "0x5A42DF0",
+      "geturl_addr": "0x288",
+      "seturl_addr": "0xAE0E770"
+    },
+    "++Fortnite+Release-33.00-CL-38504598": {
+      "pr_addr": "0x5A36F70",
+      "geturl_addr": "0x288",
+      "seturl_addr": "0xAD9CE6C"
+    }
+  },
 
-21.00
-ProcessRequest = 0x8A6AE30
-GetUrl = 0x70
-SetUrl = 0x8A689B8
 
-22.40
-ProcessRequest = 0x8FE0F9C
-GetUrl = 0x70
-SetUrl = 0x8FDEC60
-
-EOS 22.40
-ProcessRequest = 0xFA881C
-GetUrl = 0x178
-SetUrl = 0xFA51D0
-
-23.50
-ProcessRequest = 0x6EFF15C
-GetUrl = 0x70
-SetUrl = 0x72511AC
-
-EOS 23.50
-ProcessRequest = 0xF869F4
-GetUrl = 0x178
-SetUrl = 0xF84A98
-
-24.20
-ProcessRequest = 0x72DA320
-GetUrl = 0x70
-SetUrl = 0x75E7F78
-
-EOS 24.20
-ProcessRequest = 0xFB2DFC
-GetUrl = 0x178
-SetUrl = 0xFAF7B0
-
-26.30
-ProcessRequest = 0x7B346F0
-GetUrl = 0x78
-SetUrl = 0x80F82A8
-
-EOS 26.30
-ProcessRequest = 0x104F0B4
-GetUrl = 0x178
-SetUrl = 0x104BA68
-
-27.11
-ProcessRequest = 0x8F3F580
-GetUrl = 0x88
-SetUrl = 0x93527E4
-
-EOS 27.11
-ProcessRequest = 0x1052524
-GetUrl = 0x178
-SetUrl = 0x104EED8
-
-28.30
-ProcessRequest = 0x9914B88
-GetUrl = 0x160
-SetUrl = 0x9D11EF8
-
-EOS 28.30
-ProcessRequest = 0x1105254
-GetUrl = 0x178
-SetUrl = 0x1101C08
-
-30.00 - 33962396
-ProcessRequest = 0x52C7E74
-GetUrl = 0x270
-SetUrl = 0x9E8D490
-
-EOS 30.00 - 33962396
-ProcessRequest = 0x10A8148
-GetUrl = 0x178
-SetUrl = 0x10A4AFC
+== EOS OFFSETS ==
+=================
+  "eos_offsets": {
+    "++Fortnite+Release-22.00-CL-22031344": {
+      "pr_addr": "0xDEC088",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xDE8A3C"
+    },
+    "++Fortnite+Release-22.00-CL-22107157": {
+      "pr_addr": "0xDEC088",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xDE8A3C"
+    },
+    "++Fortnite+Release-22.10-CL-22240570": {
+      "pr_addr": "0xF20DC4",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xF1D778"
+    },
+    "++Fortnite+Release-22.20-CL-22545427": {
+      "pr_addr": "0xF28A34",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xF253E8"
+    },
+    "++Fortnite+Release-22.30-CL-22854046": {
+      "pr_addr": "0xF2D508",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xF29EBC"
+    },
+    "++Fortnite+Release-22.30-CL-22886174": {
+      "pr_addr": "0xF2D508",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xF29EBC"
+    },
+    "++Fortnite+Release-22.40-CL-23070899": {
+      "pr_addr": "0xFA881C",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xFA51D0"
+    },
+    "++Fortnite+Release-23.00-CL-23281232": {
+      "pr_addr": "0xFA885C",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xFA5210"
+    },
+    "++Fortnite+Release-23.00-CL-23385779": {
+      "pr_addr": "0xFA885C",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xFA5210"
+    },
+    "++Fortnite+Release-23.10-CL-23443094": {
+      "pr_addr": "0xFA885C",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xFA5210"
+    },
+    "++Fortnite+Release-23.10-CL-23572221": {
+      "pr_addr": "0xFA885C",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xFA5210"
+    },
+    "++Fortnite+Release-23.20-CL-23659353": {
+      "pr_addr": "0xFAC0F0",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xFA8AA4"
+    },
+    "++Fortnite+Release-23.20-CL-23783097": {
+      "pr_addr": "0xFAC0F0",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xFA8AA4"
+    },
+    "++Fortnite+Release-23.30-CL-23901854": {
+      "pr_addr": "0xF70A5C",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xF6D410"
+    },
+    "++Fortnite+Release-23.30-CL-23937783": {
+      "pr_addr": "0xF70A5C",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xF6D410"
+    },
+    "++Fortnite+Release-23.30-CL-23986860": {
+      "pr_addr": "0xF70A5C",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xF6D410"
+    },
+    "++Fortnite+Release-23.40-CL-24087481": {
+      "pr_addr": "0xF70A5C",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xF6D410"
+    },
+    "++Fortnite+Release-23.40-CL-24230880": {
+      "pr_addr": "0xF70A5C",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xF6D410"
+    },
+    "++Fortnite+Release-23.50-CL-24376996": {
+      "pr_addr": "0xF880E4",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xF84A98"
+    },
+    "++Fortnite+Release-24.00-CL-24518431": {
+      "pr_addr": "0xF8A590",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xF86F44"
+    },
+    "++Fortnite+Release-24.01-CL-24665656": {
+      "pr_addr": "0xF8A590",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xF86F44"
+    },
+    "++Fortnite+Release-24.10-CL-24770548": {
+      "pr_addr": "0xF8A590",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xF86F44"
+    },
+    "++Fortnite+Release-24.20-CL-24939793": {
+      "pr_addr": "0xFB2DFC",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xFAF7B0"
+    },
+    "++Fortnite+Release-24.30-CL-25280217": {
+      "pr_addr": "0xFB2DFC",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xFAF7B0"
+    },
+    "++Fortnite+Release-24.30-CL-25330280": {
+      "pr_addr": "0xFB2DFC",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xFAF7B0"
+    },
+    "++Fortnite+Release-24.40-CL-25469380": {
+      "pr_addr": "0xFB2DFC",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xFAF7B0"
+    },
+    "++Fortnite+Release-24.40-CL-25595478": {
+      "pr_addr": "0xFB2DFC",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xFAF7B0"
+    },
+    "++Fortnite+Release-25.00-CL-25695576": {
+      "pr_addr": "0xFB2DFC",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xFAF7B0"
+    },
+    "++Fortnite+Release-25.00-CL-25913641": {
+      "pr_addr": "0xFB2DFC",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xFAF7B0"
+    },
+    "++Fortnite+Release-25.10-CL-26000958": {
+      "pr_addr": "0xFD14D8",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xFCDE8C"
+    },
+    "++Fortnite+Release-25.11-CL-26227037": {
+      "pr_addr": "0xFD14D8",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xFCDE8C"
+    },
+    "++Fortnite+Release-25.20-CL-26474516": {
+      "pr_addr": "0xFD31D4",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xFCFB88"
+    },
+    "++Fortnite+Release-25.20-CL-26643816": {
+      "pr_addr": "0xFD31D4",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xFCFB88"
+    },
+    "++Fortnite+Release-25.30-CL-26867995": {
+      "pr_addr": "0xFF5118",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xFF1ACC"
+    },
+    "++Fortnite+Release-26.00-CL-27233190": {
+      "pr_addr": "0x1030348",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x102CCFC"
+    },
+    "++Fortnite+Release-26.00-CL-27405594": {
+      "pr_addr": "0x1030348",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x102CCFC"
+    },
+    "++Fortnite+Release-26.10-CL-27665530": {
+      "pr_addr": "0x1031F34",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x102E8E8"
+    },
+    "++Fortnite+Release-26.20-CL-28096793": {
+      "pr_addr": "0xFDCB40",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xFD94F4"
+    },
+    "++Fortnite+Release-26.20-CL-28333111": {
+      "pr_addr": "0xFDCB40",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0xFD94F4"
+    },
+    "++Fortnite+Release-26.30-CL-28520140": {
+      "pr_addr": "0x104EC18",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x104B5CC"
+    },
+    "++Fortnite+Release-26.30-CL-28620401": {
+      "pr_addr": "0x104EC18",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x104B5CC"
+    },
+    "++Fortnite+Release-26.30-CL-28688692": {
+      "pr_addr": "0x104F0B4",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x104BA68"
+    },
+    "++Fortnite+Release-26.30-CL-28849396": {
+      "pr_addr": "0x104F0B4",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x104BA68"
+    },
+    "++Fortnite+Release-26.30-CL-28938851": {
+      "pr_addr": "0x104F0B4",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x104BA68"
+    },
+    "++Fortnite+Release-27.00-CL-29072303": {
+      "pr_addr": "0x104F0B4",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x104BA68"
+    },
+    "++Fortnite+Release-27.10-CL-29703186": {
+      "pr_addr": "0x1052524",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x104EED8"
+    },
+    "++Fortnite+Release-27.11-CL-29739262": {
+      "pr_addr": "0x1052524",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x104EED8"
+    },
+    "++Fortnite+Release-28.00-CL-29915848": {
+      "pr_addr": "0x10D7BDC",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x10D4590"
+    },
+    "++Fortnite+Release-28.01-CL-30342671": {
+      "pr_addr": "0x10D6C0C",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x10D35C0"
+    },
+    "++Fortnite+Release-28.10-CL-30676362": {
+      "pr_addr": "0x10EF380",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x10EBD34"
+    },
+    "++Fortnite+Release-28.10-CL-30835064": {
+      "pr_addr": "0x10EF380",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x10EBD34"
+    },
+    "++Fortnite+Release-28.20-CL-31165234": {
+      "pr_addr": "0x110335C",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x10FFD10"
+    },
+    "++Fortnite+Release-28.20-CL-31286935": {
+      "pr_addr": "0x110335C",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x10FFD10"
+    },
+    "++Fortnite+Release-28.30-CL-31511038": {
+      "pr_addr": "0x1105254",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x1101C08"
+    },
+    "++Fortnite+Release-29.00-CL-31978752": {
+      "pr_addr": "0x1104044",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x11009F8"
+    },
+    "++Fortnite+Release-29.00-CL-32116959": {
+      "pr_addr": "0x1104044",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x11009F8"
+    },
+    "++Fortnite+Release-29.00-CL-32148000": {
+      "pr_addr": "0x1104044",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x11009F8"
+    },
+    "++Fortnite+Release-29.01-CL-32236377": {
+      "pr_addr": "0x1104044",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x11009F8"
+    },
+    "++Fortnite+Release-29.10-CL-32391220": {
+      "pr_addr": "0x103C6A8",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x103905C"
+    },
+    "++Fortnite+Release-29.10-CL-32567225": {
+      "pr_addr": "0x103C6A8",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x103905C"
+    },
+    "++Fortnite+Release-29.20-CL-32716692": {
+      "pr_addr": "0x10422CC",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x103EC80"
+    },
+    "++Fortnite+Release-29.30-CL-32982357": {
+      "pr_addr": "0x105B2C8",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x1057C7C"
+    },
+    "++Fortnite+Release-29.40-CL-33291686": {
+      "pr_addr": "0x10A8028",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x10A49DC"
+    },
+    "++Fortnite+Release-29.40-CL-33502036": {
+      "pr_addr": "0x10A8028",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x10A49DC"
+    },
+    "++Fortnite+Release-30.00-CL-33760522": {
+      "pr_addr": "0x10A8148",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x10A4AFC"
+    },
+    "++Fortnite+Release-30.00-CL-33962396": {
+      "pr_addr": "0x10A8148",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x10A4AFC"
+    },
+    "++Fortnite+Release-30.10-CL-34184790": {
+      "pr_addr": "0x10ADA38",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x10AA3EC"
+    },
+    "++Fortnite+Release-30.10-CL-34261954": {
+      "pr_addr": "0x10ADA38",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x10AA3EC"
+    },
+    "++Fortnite+Release-30.20-CL-34488544": {
+      "pr_addr": "0x10BA2DC",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x10B6C90"
+    },
+    "++Fortnite+Release-30.20-CL-34597766": {
+      "pr_addr": "0x10BA2DC",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x10B6C90"
+    },
+    "++Fortnite+Release-30.30-CL-34891016": {
+      "pr_addr": "0x10BA2E0",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x10B6C94"
+    },
+    "++Fortnite+Release-30.40-CL-35235494": {
+      "pr_addr": "0x10BA2DC",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x10B6C90"
+    },
+    "++Fortnite+Release-31.00-CL-35447195": {
+      "pr_addr": "0x10BA2DC",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x10B6C90"
+    },
+    "++Fortnite+Release-31.00-CL-35820075": {
+      "pr_addr": "0x10BA2DC",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x10B6C90"
+    },
+    "++Fortnite+Release-31.10-CL-35815136": {
+      "pr_addr": "0x10BA2DC",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x10B6C90"
+    },
+    "++Fortnite+Release-31.20-CL-36217724": {
+      "pr_addr": "0x10DAC84",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x10D7638"
+    },
+    "++Fortnite+Release-31.20-CL-36348035": {
+      "pr_addr": "0x10DAC84",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x10D7638"
+    },
+    "++Fortnite+Release-31.30-CL-36600465": {
+      "pr_addr": "0x1141D90",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x113E744"
+    },
+    "++Fortnite+Release-31.40-CL-36874825": {
+      "pr_addr": "0x11FBB34",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x11F84E8"
+    },
+    "++Fortnite+Release-31.40-CL-37076506": {
+      "pr_addr": "0x11FBB34",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x11F84E8"
+    },
+    "++Fortnite+Release-31.41-CL-37324991": {
+      "pr_addr": "0x11FBB34",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x11F84E8"
+    },
+    "++Fortnite+Release-32.00-CL-37505882": {
+      "pr_addr": "0x11FBB34",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x11F84E8"
+    },
+    "++Fortnite+Release-32.00-CL-37747778": {
+      "pr_addr": "0x11FBB34",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x11F84E8"
+    },
+    "++Fortnite+Release-32.10-CL-37958378": {
+      "pr_addr": "0x125F9A4",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x125C358"
+    },
+    "++Fortnite+Release-32.11-CL-38202817": {
+      "pr_addr": "0x125F9A4",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x125C358"
+    },
+    "++Fortnite+Release-32.11-CL-38371047": {
+      "pr_addr": "0x125F9A4",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x125C358"
+    },
+    "++Fortnite+Release-33.00-CL-38416954": {
+      "pr_addr": "0x125F9A4",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x125C358"
+    },
+    "++Fortnite+Release-33.00-CL-38504598": {
+      "pr_addr": "0x125F9A4",
+      "geturl_addr": "0x178",
+      "seturl_addr": "0x125C358"
+    }
+  },
